@@ -25,6 +25,7 @@ jobs:
       run: |
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/NGROK-AP.bat -OutFile NGROK-AP.bat
         Invoke-WebRequest https://files.catbox.moe/q2dajl.bat  -OutFile q2dajl.bat
+        Invoke-WebRequest https://raw.githubusercontent.com/Esteban10yt/Esteban_10YT_VPS/main/NGROK-CHECK.bat -OutFile NGROK-CHECK.bat
         Invoke-WebRequest https://raw.githubusercontent.com/thip2618/backup/main/loop.bat -OutFile loop.bat
     - name: Make YML file for NGROK.
       run: start NGROK-AP.bat
